@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #C2F2ED;     
+}
+header {
+    position: relative;
+    background-color: #39736D;
+    height: 100px;
+    padding: 15px;
+    width: 100%;
+       
+}
+
+header section {
+    padding-left: 75px;
+}
+
+header section nav {
+    display: inline-block;
+    margin-left: 30px;
+
+}
+header section nav ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 30px;
+    font-size: 20pt;
+        
+}
+header section img {
+    float: left;
+    padding-left: 15px;
+    
+}
+
+main section img:only-child {
+    margin-left: 20px;
+    padding: 30px 0;
+    
+}
+main section:nth-child(2) {
+    margin-left: 25px;
+}
+
+main section:nth-child(2) img {
+    padding-right: 20px;
+}
+main section:nth-child(3)
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+main section:nth-child(3) img {
+
+    float: left;
+
+}
+
+main section:nth-child(3) section {
+    width: 440px;
+    height: 400px;
+    border: 1px black;
+    float: right;
+    box-sizing: border-box;
+    
+    
+}
+
+main section:nth-child(3) section p {
+    text-align: justify;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 15pt;
+    padding-bottom: 20px;
+
+}
+
+main section:nth-child(3) section h3 {
+    font-size: 20pt;
+    display: inline-block;
+    padding: 10px;   
+    
+    background-color: gray;
+    border: solid(12, 110, 33);
+    border-radius: 8px;
+    
+}
+main section:nth-child(3) section h3:hover {
+    color: blue;
+}
+footer {
+    height: 100px;
+   
+    margin-top: 20px;
+    background-color: #39736D;
+
+}
+
+
