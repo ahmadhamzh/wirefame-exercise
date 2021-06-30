@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     background-color: #C2F2ED;     
 }
@@ -14,9 +14,14 @@ header {
     width: 100%;
        
 }
+main {
+    width: 100%;
+    margin-left: 150px;
+}
 
 header section {
     padding-left: 75px;
+    margin-left: 150px;
 }
 
 header section nav {
@@ -94,7 +99,7 @@ main section:nth-child(3) section h3:hover {
 }
 footer {
     height: 100px;
-   
+    width: 100%;
     margin-top: 20px;
     background-color: #39736D;
 
